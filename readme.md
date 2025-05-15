@@ -6,6 +6,23 @@ This repository contains the implementation of Rigorous Coupled Wave Analysis (R
 a numerical method used to analyze the scattering and diffraction of electromagnetic waves by periodic structures.
 It includes a detailed formulation document, code, and examples.
 
+## Install
+
+Install required packages
+```bash
+pip install -r ./requirements.txt
+```
+
+Install for development
+```bash
+pip install -e .
+```
+
+To undo this install
+```
+pip uninstall rcwa
+```
+
 ## Directory Structure
 - `formulation/`: (WIP)
   - Contains the (outdated) formulation document in both docx and pdf formats, providing a detailed explanation of the RCWA method.
